@@ -2,6 +2,11 @@
 
 ## Automate the step of running the output file
 
+![runtask](https://user-images.githubusercontent.com/66258652/233619662-18faddd7-dc3e-4142-bf01-5534c2f2ec05.png)
+![command](https://user-images.githubusercontent.com/66258652/233619933-dc1c7788-ca11-4aa1-bb2b-ae5b7c2ca364.png)
+![Screenshot from 2023-04-21 16-25-34](https://user-images.githubusercontent.com/66258652/233619968-9344274d-90c8-4293-8baf-5c5ca9e8def7.png)
+
+
 ### This tasks.json file defines two tasks: Build C++ program with SDL2 and Run C++ program with SDL2
 
 `Build C++ program with SDL2` is a `cppbuild` task which uses the `g++ compiler` to build the C++ program. It takes the following arguments:
