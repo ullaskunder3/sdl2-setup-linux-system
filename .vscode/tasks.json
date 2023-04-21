@@ -1,0 +1,25 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cppbuild",
+			"label": "Build C++ program with SDL2",
+			"command": "/usr/bin/g++",
+			"args": [
+                "-g",
+                "-o",
+				"${workspaceFolder}/build/${fileBasenameNoExtension}.out",
+                "${file}",
+                "`sdl2-config --cflags --libs`"
+			],
+			"options": {
+				"cwd": "${fileDirname}"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build",
+			"detail": "compiler: /usr/bin/g++"
+		}
+	]
+}
